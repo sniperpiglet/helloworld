@@ -10,6 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func tapGreen(_ sender: Any) {
+        view.backgroundColor = UIColor.green
+    }
+    
+    @IBAction func tapBlue(_ sender: Any) {
+        view.backgroundColor = UIColor.blue
+    }
+    
+    @IBAction func tabBlack(_ sender: Any) {
+        view.backgroundColor = UIColor.white
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
